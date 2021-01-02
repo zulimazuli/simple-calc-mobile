@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { StyleSheet, View, Text, StatusBar, TouchableWithoutFeedback } from 'react-native';
+import { StyleSheet, View, StatusBar, TouchableWithoutFeedback } from 'react-native';
 import CalcButton from './components/CalcButton';
 import CalcInput from './components/CalcInput';
 
@@ -22,7 +22,6 @@ export default function App() {
         setExpression(['0']);
         break;
       case '=':
-        // setExpression(prev => [eval(prev.join()).toString()]);
         try {
           const result = [eval(expression.join(''))]
           setExpression(result);
