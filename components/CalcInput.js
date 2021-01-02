@@ -1,10 +1,10 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text } from 'react-native';
 
 const CalcInput = (props) => {
     let style = {fontSize: 56};
     
-    
+
 
     const length = props.expression.length;
     if(length > 15) {
@@ -27,9 +27,7 @@ const CalcInput = (props) => {
 
 const styles = StyleSheet.create({
     input: {
-        color: '#fff',
-        // borderStyle: 'solid', borderWidth: 1, borderColor: 'pink'
-        
+        color: '#fff',        
     }
 });
 

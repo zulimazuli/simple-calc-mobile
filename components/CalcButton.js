@@ -1,5 +1,5 @@
 import React from 'react'
-import { StyleSheet, View, Text, TouchableOpacity, ImagePropTypes } from 'react-native'
+import { StyleSheet, Text, TouchableOpacity } from 'react-native'
 
  const CalcButton = (props) => {
 
